@@ -76,6 +76,7 @@ a:active {
   height: 850px;
   background: #ffa949 url('img/yosemite-header.jpg') no-repeat center;
   background-size: cover;
+  box-shadow: 0 2px 15px #aaa;
  
 }
 
@@ -129,13 +130,12 @@ a:active {
 
 /* Layout Styles ------------------ */
 
-.primary-content, 
-.secondary-content {
-  width: 75%;
+.primary-content {
+  width: 100%;
   padding-left: 50px;
   padding-right: 50px;
+  max-width: 1100px;
   margin: auto;
-  max-width: 960px;
 }
 
 .wildlife {
@@ -153,25 +153,42 @@ a:active {
   width: 50px;
 }
 
+.secondary-content {
+  width: 100%;
+  padding-left: 20px;
+  padding-right: 20px;
+  max-width: 1100px;
+  margin: auto;
+
+}
+
 /* Floated Columns ------------------ */
 
-.resorts,
-.tips {
-  width: 46.5%;
-}
-
-.tips {
+.attractions,
+.plan,
+.weather {
   float: left;
+  width: 33%;
+  padding: 20px;
 }
 
-.resorts {
-  float: right;
-}
 
-/* Float Clearfix ------------------ */
 
-.group:after {
+/* Floated Columns ------------------ */
+
+.secondary-content:after {
   content: "";
-  display: table;
+  visibility: hidden;
+  display: block;
+  height: 0;
   clear: both;
 }
+
+
+
+
+
+
+
+
+
