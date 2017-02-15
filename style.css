@@ -76,7 +76,8 @@ a:active {
 .header {
   padding-top: 170px;
   height: 850px;
-  background: #ffa949 url('img/yosemite-header.jpg') no-repeat center;
+  background: linear-gradient(0deg, #a2b2e6, transparent 40%),
+              #ffa949 url('img/yosemite-header.jpg') no-repeat center;
   background-size: cover;
   box-shadow: 0 2px 15px #aaa;
  
