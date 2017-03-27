@@ -1,5 +1,10 @@
 /*#a2b2e6*/
 
+/* Issues -------------------- */
+
+/*images are different heights in 3 column section
+in mobile view, 2nd image is smaller than the others*/
+
 /* Base Styles -------------------- */
 
 * {
@@ -77,7 +82,7 @@ a:active {
   padding-top: 170px;
   height: 850px;
   background: linear-gradient(0deg, #a2b2e6, transparent 40%),
-              #ffa949 url('img/yosemite-header.jpg') no-repeat center;
+              #ffa949 url('http://i.imgur.com/34oEZI2.jpg') no-repeat center;
   background-size: cover;
   box-shadow: 0 2px 15px #aaa;
  
@@ -147,7 +152,7 @@ a:active {
   padding: 18% 24%;
   border-top: 10px solid #ffa949;
   margin: 105px 0 60px;
-  background: #434a52 url('img/yosemite-bear.jpg') no-repeat center;
+  background: #434a52 url('http://i.imgur.com/HPcLH8t.jpg') no-repeat center;
   background-size: cover;
   box-shadow: 0 15px 20px -12px rgba(0,0,0, .8);
 }
